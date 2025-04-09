@@ -11,10 +11,10 @@ class Fraction{
     public:
     void set(int n, int d)
         {num = n; den = d; normalize();}
-    int getNum()
-        {return num;}
-    int getDen()
-        {return den;}
+    // int getNum()
+    //     {return num;}
+    // int getDen()
+    //     {return den;}
 
     private:
         void normalize();       // converts to standard form
