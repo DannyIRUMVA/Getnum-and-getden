@@ -61,12 +61,12 @@ void  Fraction::normalize(){
 }
 /* greatest common factor
 */
-int Fraction::gcf(int a, int b){
-    if (b == 0)
-        return abs(a);
-    else
-        return gcf(b, a % b);
-}
+// int Fraction::gcf(int a, int b){
+//     if (b == 0)
+//         return abs(a);
+//     else
+//         return gcf(b, a % b);
+// }
 /* lowest common multiple
 */
 int Fraction::lcm(int a, int b){
